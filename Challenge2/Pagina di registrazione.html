@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pagina di registrazione</title>
+</head>
+<body>
+  <h1>Pagina di registrazione</h1>
+  <form onsubmit ="alert('Registrazione inviata!')">
+    <div>
+      <input type="text" placeholder="Il tuo nome"/>
+      <input type="text" placeholder="Il tuo cognome"/>
+    </div>
+    <div>
+      <input type="email" placeholder="Il tuo indirizzo email"/>
+      <input type="password" placeholder="Inserisci la password"/>
+    </div>
+    <br>
+    <div>
+      <label>Data di nascita</label>
+      <input type="date"/>
+      <label>Numero di telefono<input type="tel"></label>
+    </div>
+    <br>
+      <fieldset>
+        <legend>I tuoi gusti musicali</legend>
+        <label><input type="checkbox"> Pop </label>
+        <label><input type="checkbox"> Rap</label>
+        <label><input type="checkbox"> 80-90</label>
+        <label><input type="checkbox"> Jazz</label>
+        <label><input type="checkbox"> R&B</label>
+      </fieldset><br>
+    <label><input type="radio">Accetto termini e condizioni d'uso</label>
+    <br><br>
+    <button type="submit">INVIA FORM</button>
+  </form>
+</body>
+</html>
